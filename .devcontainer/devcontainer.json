@@ -23,7 +23,9 @@
 				"streetsidesoftware.code-spell-checker"
 			]
 		}
-	}
+	},
+
+	"appPort": 26000
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
