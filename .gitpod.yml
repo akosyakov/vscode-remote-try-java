@@ -1,0 +1,6 @@
+image:
+  file: .devcontainer/.gitpod.Dockerfile
+tasks:
+  - init: .devcontainer/prebuild.sh
+    command: .devcontainer/start.sh
+    name: Run Dev Container
