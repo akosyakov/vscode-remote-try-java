@@ -25,7 +25,11 @@
 		}
 	},
 
-	"appPort": 26000
+	"runArgs": [
+		"--network", "host"
+	],
+	"workspaceMount": "source=${localWorkspaceFolder},target=${localWorkspaceFolder},type=bind",
+	"workspaceFolder": "${localWorkspaceFolder}"
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
